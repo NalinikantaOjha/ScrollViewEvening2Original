@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue">
+    <TextView
+       style="@style/TestView"
+        android:text="Createa an Account"
+        android:drawableLeft="@drawable/ic_vector__3_"
+
+>
+
+    </TextView>
+</RelativeLayout>
+    <EditText
+       style="@style/EditText"
+        android:hint="@string/em">
+
+    </EditText>
+    <EditText
+        style="@style/EditText"
+        android:hint="@string/em">
+
+    </EditText>
+    <EditText
+        style="@style/EditText"
+        android:hint="@string/em">
+
+    </EditText>
+    <TextView
+        style="@style/TestView"
+        android:text="USE PHONE NUMBER"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/dp_10"
+        android:layout_gravity="center"
+
+
+        >
+
+    </TextView>
+    <Button
+       style="@style/Buttom"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:background="@color/blue">
+
+
+    </Button>
+    <TextView
+      style="@style/TestView"
+        android:text="or"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue1"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="0dp"
+
+        >
+
+        <TextView
+            style="@style/TestView"
+            android:text="CONTINUE WITH FACE BOOK"
+            android:textSize="@dimen/dp_20"
+            android:drawableLeft="@drawable/ic_vector__15_"
+
+            >
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            style="@style/TestView"
+            android:textColor="@color/black"
+            android:text="CONTINUE WITH GOOGLE"
+            android:textSize="@dimen/dp_20"
+            android:drawableLeft="@drawable/ic_vector__16_"
+
+            >
+
+        </TextView>
+    </RelativeLayout>
+
+
+</LinearLayout>
